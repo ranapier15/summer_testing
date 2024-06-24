@@ -1,4 +1,8 @@
 import  numpy as  np
-imprt  matplotlip.pyplot as plt
+import  matplotlip.pyplot as plt
 
 x=np.linspace(-1,1,100)
+y = 2*x**3 -3
+
+plt.figure()
+plt.plot(x,y, 'ro-')
